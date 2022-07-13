@@ -1,0 +1,136 @@
+html {
+    background-color: #03a9f4;
+}
+
+
+.button {
+    background-color: #303030;
+    border: none;
+    border-radius: 12px;
+    display: block;
+    margin: 25px;
+    padding: 30px;
+    text-align: center;
+    width: 490px;
+  }
+
+  .container {
+    height: 640px;
+    bottom: 150px;
+    position: relative;
+    border: none;
+  }
+
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  img {
+    border: none;
+    border-radius: 4px;
+    position: float;
+    padding: 5px;
+    width: 150px;
+  }
+
+  .center2 {
+    display: block;
+    margin-left: 44%;
+    margin-top: 3%;
+  }
+
+  footer {
+    font-family: sans-serif;
+    background-color: #414141;
+    position: fixed;
+    font-weight: normal;
+    font-size: 10pt;
+    left: 0;
+    bottom: 0;
+    top: 90%;
+    width: 100%;
+    color: #bfbfbf;
+    text-align: center;
+  }
+
+  p {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 150%;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 125%;
+    font-weight: 700;
+    font-style:normal;
+  }
+/*--------------------------------------------------------------Mobile Layout-----------------------------------------------------------------*/
+
+  @media screen and (max-width:572px) {
+    .button {
+        background-color: #303030;
+        border: none;
+        border-radius: 12px;
+        display: block;
+        font-family: sans-serif;
+        font-size: 100%;
+        font-weight: 700;
+        margin: 10%;
+        line-height: 28px;
+        padding: 8%;
+        text-align: center;
+        text-decoration: none;
+        width: 125%;
+        position: relative;
+      }
+      
+      .center {
+        margin: 0;
+        position: absolute;
+        top: 60%;
+        left: 37%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+
+      p {
+        font-family: Montserrat, sans-serif;
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+        font-size: 150%;
+      }
+    
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 125%;
+        font-weight: 700;
+        font-style:normal;
+      }
+    /*------------------------------------------------------------Imagem-----Logo---------------------------------------------------------*/
+      img {
+        border: none;
+        border-radius: 4px;
+        position: float;
+        padding: 5px;
+        width: 150px;
+      }
+    
+      .center2 {
+        display: block;
+        margin-left: 30%;
+        margin-top: 17%;
+      }
+  }
